@@ -16,13 +16,11 @@ const add = function(){
     arry_task.forEach((value,index )=> {
         console.log(index+":"+value);
     });
-git
+
     const input_1=prompt("「確認、追加、削除、終了のいずれかを入力してください。」");
     const input_2=prompt("タスクを入力してください。");
 
-   
     if(input_2 !==''){
-        input_1;
         arry_task.push(input_2);
 
         arry_title.forEach((value)=> {
