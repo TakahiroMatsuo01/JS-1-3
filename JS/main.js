@@ -1,37 +1,27 @@
-const arryTitle=[
-    '===============================',
-    '現在持っているタスク一覧',
-    '==============================='
-]
+const Title = '===============================\n現在持っているタスク一覧\n===============================';
 
-const arryTask=[
+const Tasks = [
     "掃除",'買い物','散歩'
 ]
 
 const add = function(){
-    arryTitle.forEach((value)=> {
-        console.log(value);
-    });
+    console.log(Title);
 
-    arryTask.forEach((value,index )=> {
+    Tasks.forEach((value,index ) => {
         console.log(index+":"+value);
     });
 
-    const input1=prompt("「確認、追加、削除、終了のいずれかを入力してください。」");
-    const input2=prompt("タスクを入力してください。");
+    const comformDialog = prompt("「確認、追加、削除、終了のいずれかを入力してください。」");
+    const inputDialog=prompt("タスクを入力してください。");
 
+    comformDialog;
+    Tasks.push(inputDialog);
 
-    if(input_2 !==''){
-        input_1;
-        arryTask.push(input_2);
-
-        arryTitle.forEach((value)=> {
-            console.log(value);
-        });
-        
-        arryTask.forEach((value,index )=> {
-            console.log(index+":"+value);
-        });
-    }
+    Title;
+    
+    Tasks.forEach((value,index )=> {
+        console.log(index+':'+value);
+    });   
 }
+
 add();
