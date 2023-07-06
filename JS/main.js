@@ -1,19 +1,19 @@
-const arry_title=[
+const arryTitle=[
     '===============================',
     '現在持っているタスク一覧',
     '==============================='
 ]
 
-const arry_task=[
+const arryTask=[
     "掃除",'買い物','散歩'
 ]
 
 const add = function(){
-    arry_title.forEach((value)=> {
+    arryTitle.forEach((value)=> {
         console.log(value);
     });
 
-    arry_task.forEach((value,index )=> {
+    arryTask.forEach((value,index )=> {
         console.log(index+":"+value);
     });
 
@@ -21,13 +21,14 @@ const add = function(){
     const input_2=prompt("タスクを入力してください。");
 
     if(input_2 !==''){
-        arry_task.push(input_2);
+        input_1;
+        arryTask.push(input_2);
 
-        arry_title.forEach((value)=> {
+        arryTitle.forEach((value)=> {
             console.log(value);
         });
         
-        arry_task.forEach((value,index )=> {
+        arryTask.forEach((value,index )=> {
             console.log(index+":"+value);
         });
     }
