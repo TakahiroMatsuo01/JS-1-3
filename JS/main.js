@@ -20,9 +20,10 @@ const add = function(){
     const input1=prompt("「確認、追加、削除、終了のいずれかを入力してください。」");
     const input2=prompt("タスクを入力してください。");
 
-    if(input2 !==''){
-        input1;
-        arryTask.push(input2);
+
+    if(input_2 !==''){
+        input_1;
+        arryTask.push(input_2);
 
         arryTitle.forEach((value)=> {
             console.log(value);
