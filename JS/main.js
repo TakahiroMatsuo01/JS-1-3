@@ -1,13 +1,13 @@
-const Title = '===============================\n現在持っているタスク一覧\n===============================';
+const arrayTitle = '===============================\n現在持っているタスク一覧\n===============================';
 
-const Tasks = [
+const arrayTasks = [
     "掃除",'買い物','散歩'
 ]
 
 const add = function(){
-    console.log(Title);
+    console.log(arrayTitle);
 
-    Tasks.forEach((value,index ) => {
+    arrayTasks.forEach((value,index ) => {
         console.log(index+":"+value);
     });
 
@@ -15,11 +15,11 @@ const add = function(){
     const inputDialog=prompt("タスクを入力してください。");
 
     comformDialog;
-    Tasks.push(inputDialog);
+    arrayTasks.push(inputDialog);
 
-    Title;
+    console.log(arrayTitle);
     
-    Tasks.forEach((value,index )=> {
+    arrayTasks.forEach((value,index )=> {
         console.log(index+':'+value);
     });   
 }
