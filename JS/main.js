@@ -1,10 +1,12 @@
+
 const titleSet = '===============================\n現在持っているタスク一覧\n===============================';
 
 const tasksList = [
     '掃除','買い物','散歩'
 ]
 
-const add = function(){
+const add = () => {
+
     console.log(titleSet);
 
     tasksList.forEach((value,index ) => {
@@ -15,6 +17,7 @@ const add = function(){
     const inputDialog=prompt('タスクを入力してください。');
 
     comformDialog;
+
     tasksList.push(inputDialog);
 
     titleSet;
