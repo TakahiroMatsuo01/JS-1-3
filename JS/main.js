@@ -5,7 +5,7 @@ const tasksList = [
     '掃除','買い物','散歩'
 ]
 
-const add = function(){
+const add = () => {
 
     console.log(titleSet);
 
